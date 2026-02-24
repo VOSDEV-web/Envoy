@@ -1,0 +1,36 @@
+{
+  "Configuration": {
+    "Tenant": [
+      {
+        "TenantId": "ba39cfef-eade-4c88-81d5-d9a7d2148787",
+        "AppId": "cbc4839b-d1c8-4e83-a83e-69eedfb19b6a"
+      }
+    ],
+    "Drives": [],
+    "Registries": [
+      {
+        "key": "HKCU:\\Software\\VOSDEV",
+        "valueName": "AutoPilot-Admin",
+        "valueType": "DWORD",
+        "valueData": "1",
+        "action": "add",
+        "group": ""
+      }
+    ],
+    "executables": [],
+    "fileActions": [],
+    "printers": [],
+    "StartMenuEntry": [],
+    "DesktopShortcuts": [
+      {
+        "Action": "add",
+        "ShortcutName": "VOSDEV Site",
+        "Executable": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+        "Group": "VOSDEV Site",
+        "IconPath": "C:\\Icofiles\\VOSDEV_logo.ico",
+        "StartIn": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application",
+        "Arguments": "https://vosdev.carrd.co/"
+      }
+    ]
+  }
+}
