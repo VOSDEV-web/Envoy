@@ -6,7 +6,17 @@
         "AppId": "cbc4839b-d1c8-4e83-a83e-69eedfb19b6a"
       }
     ],
-    "Drives": [],
+    "Drives": [
+      {
+        "driveLetter": "G",
+        "uncpath": "\\\\ds.umcutrecht.nl\\GROUPS\\%divisie%",
+        "group": "Cluster DIT Users",
+        "IncludeNested": "",
+        "priority": 1,
+        "description": "Groepsschijf %divisie%",
+        "action": "add"
+      }
+    ],
     "Registries": [
       {
         "key": "HKCU:\\Software\\VOSDEV",
@@ -14,20 +24,44 @@
         "valueType": "DWORD",
         "valueData": "1",
         "action": "add",
-        "group": ""
+        "group": "",
+        "IncludeNested": ""
       }
     ],
     "executables": [],
     "fileActions": [],
     "printers": [],
-    "StartMenuEntry": [],
+    "StartMenuEntry": [
+      {
+        "ShortcutName": "HIX 6.3 Productie RDSH",
+        "Executable": "horizon-client://vdi-ext.umcutrecht.nl/cn=6590ca8e-a4aa-4c14-937f-165fdd673581,ou=entitlements,dc=vdiglobal,dc=horizon,dc=internal",
+        "IconPath": "C:\\Icofiles\\HIX-Productie.ico",
+        "StartIn": " C:\\Program Files\\Omnissa\\Omnissa Horizon Client",
+        "Arguments": "",
+        "Action": "add",
+        "Group": "",
+        "IncludeNested": "",
+        "Shortcutfolder": ""
+      }
+    ],
     "DesktopShortcuts": [
       {
         "Action": "add",
         "ShortcutName": "VOSDEV Site",
         "Executable": "https://vosdev.carrd.co/",
         "Group": "Cluster DIT Users",
+        "IncludeNested": "",
         "IconPath": "C:\\Icofiles\\VOSDEVlogo.ico",
+        "StartIn": "",
+        "Arguments": ""
+      },
+      {
+        "Action": "add",
+        "ShortcutName": "Mijn Werkplek",
+        "Executable": "https://mijnwerkplek.umcutrecht.nl",
+        "Group": "",
+        "IncludeNested": "",
+        "IconPath": "C:\\Icofiles\\mijn_werkplek.ico",
         "StartIn": "",
         "Arguments": ""
       }
